@@ -5,7 +5,7 @@ Event store
 L’application permettra de récupérer les différents évènements javascript (conférences, meetups, workshops) à venir dans différents pays. Elle sera uniquement accessible via une API donnée et ne disposera d'aucune interface graphique.
 
 ### Features
-Toutes les 24 heures, l’application vérifiera la présence de nouveaux évènements javascript à partir du site Lanyrd (http://lanyrd.com/topics/javascript/) et mettra à jour une base de données.
+Toutes les 24 heures, l’application vérifiera la présence de nouveaux évènements javascript à partir du site Lanyrd (http://lanyrd.com/topics/javascript/) et mettra à jour une base de données qui sera utilisée par l'api.
 
 L’api de l’application exposera une ressource `events`. Elle sera accessible via le chemin `/api/events` et respectera les conventions REST:
 
@@ -15,11 +15,14 @@ L’api de l’application exposera une ressource `events`. Elle sera accessible
 - `PUT /api/events/:id` --> Met à jour l'évènement correspondant à l’identifiant donné en paramètre, avec les données passées dans le corps de la requête
 - `DELETE /api/events/:id` --> Supprime l'évènement correspondant à l’identifiant donné en paramètre
 
-### Contraintes
-- L'application devra être implémentée avec Node.js (choix libre pour d'éventuelles librairies et/ou frameworks à utiliser)
+### Consignes
+- L'application devra être implémentée avec Node.js (choix libre pour l'utilisation d'éventuelles librairies et/ou frameworks)
 - Le JSON sera utilisé pour converser avec l'api
-- Github sera utilisé pour la réalisation du projet
 - Une documentation sera fournie pour installer l'application et la lancer
+- Vous disposez d'autant de temps que vous le souhaitez.
+
+Envoyez-nous votre repo Github en réponse de ce challenge.
+Happy coding :)
 
 
 
