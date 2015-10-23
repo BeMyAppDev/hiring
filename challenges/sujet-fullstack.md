@@ -12,7 +12,6 @@ L’application permettra de gérer des évènements (conférences, meetups, wor
 - La page affichera les évènements à venir par ordre chronologique avec un moteur de recherche intégré et de manière condensée
 - Un clic sur un évènement l'ouvrira en pop-under pour en afficher tout le contenu
 - Créer / modifier un évènement (aucune authentification requise)
-- L'application sera responsive
 - Une documentation sera fournie pour installer l'application et la lancer
 - Vous pouvez vous inspirer de ce design: https://www.dropbox.com/s/touxgqh55e8t229/Capture%20d%27%C3%A9cran%202015-10-23%2010.40.47.png?dl=0
 
